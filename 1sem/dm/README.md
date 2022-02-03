@@ -2,6 +2,6 @@
 
 * [Булевы функции](lab1-boolean)
 
-* [Комбинаторика](lab2-encode)
+* [Кодирование](lab2-encode)
 
-* [Алгоритмы сжатия](lab3-combinatorics)
+* [Комбинаторика](lab3-combinatorics)
