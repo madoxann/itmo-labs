@@ -1,0 +1,1 @@
+{"name":"Local: R","url":"/home/madoxann/otherProg/algos/lab1/R.py","tests":[{"id":1638730828518,"input":"10 4\n1 3 2 4 10 8 4 2 5 3","output":"12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab1/R.py","group":"local","local":true}

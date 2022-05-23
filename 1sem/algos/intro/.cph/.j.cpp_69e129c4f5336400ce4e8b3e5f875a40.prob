@@ -1,0 +1,1 @@
+{"name":"Local: j","url":"/home/madoxann/otherProg/algos/lab1/j.cpp","tests":[{"id":1638655896077,"input":"6\nroot/a\nroot/a/b\nroot/c/x\nroot/a/b/c\nroot\nroot/c","output":"root\n  a\n    b\n      c\n  c\n    x"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab1/j.cpp","group":"local","local":true}
