@@ -1,1 +1,0 @@
-{"name":"Local: J","url":"/home/madoxann/otherProg/algos/lab2/J.cpp","tests":[{"id":1639470388600,"input":"4 5\n1 0 0 1 0\n0 1 1 1 0\n0 1 1 1 0\n1 1 0 1 0","output":"2"},{"id":1639486239155,"input":"1 1\n0","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab2/J.cpp","group":"local","local":true}

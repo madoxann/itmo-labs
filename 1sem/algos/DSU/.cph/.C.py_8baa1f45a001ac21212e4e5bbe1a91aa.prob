@@ -1,1 +1,0 @@
-{"name":"Local: C","url":"/home/madoxann/otherProg/algos/lab3/C.py","tests":[{"id":1642652695000,"input":"8 6\n3 2 5\n1 2 5\n3 2 5\n2 4 7\n2 1 2\n3 1 7","output":"NO\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab3/C.py","group":"local","local":true}

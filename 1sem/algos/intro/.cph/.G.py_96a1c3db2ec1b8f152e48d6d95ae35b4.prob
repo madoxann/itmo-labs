@@ -1,1 +1,0 @@
-{"name":"Local: G","url":"/home/madoxann/otherProg/algos/lab1/G.py","tests":[{"id":1638268918933,"input":"6 4\n1 4 3 7 10 8\n1 3\n2 5\n3 6\n1 6","output":"8\n24\n28\n33"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab1/G.py","group":"local","local":true}

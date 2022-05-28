@@ -1,1 +1,0 @@
-{"name":"Local: F","url":"/home/madoxann/otherProg/algos/lab1/F.cpp","tests":[{"id":1638513779791,"input":"7\n0 100\n0 10\n1\n0 5\n0 30\n0 50\n1","output":"100\n50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab1/F.cpp","group":"local","local":true}

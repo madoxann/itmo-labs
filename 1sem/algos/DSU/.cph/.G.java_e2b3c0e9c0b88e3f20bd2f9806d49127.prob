@@ -1,1 +1,0 @@
-{"name":"Local: G","url":"/home/madoxann/otherProg/algos/lab3/G.java","tests":[{"id":1642645977548,"input":"10 10\n","output":"2357\n"},{"id":1642646093133,"input":"11 100","output":"203050711"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab3/G.java","group":"local","local":true}

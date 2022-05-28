@@ -1,1 +1,0 @@
-{"name":"Local: G","url":"/home/madoxann/otherProg/algos/lab3/G.cpp","tests":[{"id":1642645010642,"input":"10 10\n","output":"2357"},{"id":1642645094158,"input":"11 100","output":"203050711"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/madoxann/otherProg/algos/lab3/G.cpp","group":"local","local":true}
