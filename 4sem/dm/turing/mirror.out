@@ -1,0 +1,60 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+s 1 -> s 1 >
+s 0 -> s 0 >
+s _ -> bk | ^
+
+bk | -> bk | <
+bk *1 -> bk *1 < 
+bk *0 -> bk *0 < 
+bk 1 -> fwd1 *1 >
+bk 0 -> fwd0 *0 >
+bk _ -> rw _ >
+
+fwd0 0 -> fwd0 0 >
+fwd0 1 -> fwd0 1 >
+fwd0 *0 -> fwd0 *0 >
+fwd0 *1 -> fwd0 *1 >
+fwd0 | -> fwd0 | >
+fwd0 _ -> clr *0 <
+
+fwd1 0 -> fwd1 0 >
+fwd1 1 -> fwd1 1 >
+fwd1 *0 -> fwd1 *0 >
+fwd1 *1 -> fwd1 *1 >
+fwd1 | -> fwd1 | >
+fwd1 _ -> clr *1 <
+
+clr 0 -> clr 0 <
+clr 1 -> clr 1 <
+clr *0 -> clr *0 <
+clr *1 -> clr *1 <
+clr | -> bk | ^
+
+rw *1 -> rw *1 >
+rw *0 -> rw *0 >
+rw | -> mv | >
+
+prep *0 -> prep *0 >
+prep *1 -> prep *1 >
+prep | -> mv | >
+
+mv *0 -> mv0 | <
+mv *1 -> mv1 | <
+mv _ -> end _ <
+
+mv0 *0 -> mv0 *0 <
+mv0 *1 -> mv0 *1 <
+mv0 | -> prep *0 >
+
+mv1 *0 -> mv0 *0 <
+mv1 *1 -> mv0 *1 <
+mv1 | -> prep *1 >
+
+end | -> end _ <
+end *0 -> end 0 <
+end *1 -> end 1 <
+end _ -> ac _ >
+
